@@ -1,0 +1,23 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 24px;
+}
+.container {
+  margin: 20px auto;
+  width 90%;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+div {
+  text-transform: Capitalize;
+}
+
+{
+  background-image: url(/images/baku.jpg)
+}
