@@ -4,20 +4,65 @@
 
 body {
   background-color: #dadada;
-  font-size: 24px;
+  font-size: 20px;
+}
+h1 {
+  margin-top:20px;
+  margin-left: 20px;
 }
 .container {
   margin: 20px auto;
   width 90%;
 }
 
-h1 {
+#header {
   text-transform: uppercase;
-}
-div {
-  text-transform: Capitalize;
+  margin: 0 auto;
+  padding:20px;
+  padding-top: 20px;
 }
 
-{
-  background-image: url(/images/baku.jpg)
+
+@media screen and (min-width:575px) {
+  div {
+    width:200px;
+    height:200px;
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  div {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+  }
+}
+
+.preview#baku{
+  background-image: url("/images/baku.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.preview#london{
+  background-image: url("/images/london.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.preview#madrid{
+  background-image: url("/images/madrid.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.preview#rome{
+  background-image: url("/images/rome.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
